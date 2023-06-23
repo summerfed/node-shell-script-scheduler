@@ -1,0 +1,19 @@
+{
+	"name": "node-shell-script-scheduler",
+	"version": "1.0.0",
+	"description": "To run sh script with configurable path and schedule",
+	"main": "run.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node run.js"
+	},
+	"author": "fedmanangan",
+	"license": "ISC",
+	"dependencies": {
+		"node-cron": "^3.0.2"
+	},
+	"config": {
+		"scriptFilePath": "./sample/hello-world.sh",
+		"runIntervalInMinutes": 1
+	}
+}
